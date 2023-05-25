@@ -1,0 +1,5 @@
+---
+- name: create file
+  my_own_namespace.yandex_cloud_cvl.my_own_module:
+    path: "{{ my_path }}"
+    content: "{{ my_content }}
